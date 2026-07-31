@@ -1,0 +1,73 @@
+- generic [active] [ref=f3e1]:
+  - banner [ref=f3e2]:
+    - navigation [ref=f3e3]:
+      - generic [ref=f3e4]:
+        - link "OrderHub" [ref=f3e5] [cursor=pointer]:
+          - /url: /Orders
+        - list [ref=f3e7]:
+          - listitem [ref=f3e8]:
+            - link "訂單" [ref=f3e9] [cursor=pointer]:
+              - /url: /Orders
+          - listitem [ref=f3e10]:
+            - link "商品" [ref=f3e11] [cursor=pointer]:
+              - /url: /Products
+          - listitem [ref=f3e12]:
+            - link "低庫存" [ref=f3e13] [cursor=pointer]:
+              - /url: /Products/LowStock
+          - listitem [ref=f3e14]:
+            - link "客戶" [ref=f3e15] [cursor=pointer]:
+              - /url: /Customers
+  - generic [ref=f3e16]:
+    - alert [ref=f3e17]:
+      - text: "訂單 #208 建立成功"
+      - button "關閉" [ref=f3e18] [cursor=pointer]
+    - main [ref=f3e19]:
+      - generic [ref=f3e20]:
+        - 'heading "訂單 #208 待處理" [level=1] [ref=f3e21]':
+          - text: "訂單 #208"
+          - generic [ref=f3e22]: 待處理
+        - link "回訂單列表" [ref=f3e23] [cursor=pointer]:
+          - /url: /Orders
+      - generic [ref=f3e24]:
+        - generic [ref=f3e25]: 客戶資訊
+        - generic [ref=f3e26]:
+          - generic [ref=f3e27]:
+            - generic [ref=f3e28]:
+              - strong [ref=f3e29]: 陳志明
+              - generic [ref=f3e30]: 金卡會員
+            - generic [ref=f3e31]: chen.zhiming@example.com.tw
+            - generic [ref=f3e32]: 建立時間：2026-07-31 11:45
+          - link "查看此客戶的所有訂單" [ref=f3e34] [cursor=pointer]:
+            - /url: /Customers/1/Orders
+      - generic [ref=f3e35]:
+        - generic [ref=f3e36]: 訂單明細
+        - table [ref=f3e37]:
+          - rowgroup [ref=f3e38]:
+            - row [ref=f3e39]:
+              - columnheader "SKU" [ref=f3e40]
+              - columnheader "商品" [ref=f3e41]
+              - columnheader "數量" [ref=f3e42]
+              - columnheader "單價（快照）" [ref=f3e43]
+              - columnheader "小計" [ref=f3e44]
+          - rowgroup [ref=f3e45]:
+            - row [ref=f3e46]:
+              - cell "SKU-1001" [ref=f3e47]
+              - cell "極光 無線滑鼠" [ref=f3e48]
+              - cell "2" [ref=f3e49]
+              - cell "NT$ 1,420.00" [ref=f3e50]
+              - cell "NT$ 2,840.00" [ref=f3e51]
+          - rowgroup [ref=f3e52]:
+            - row [ref=f3e53]:
+              - cell "小計" [ref=f3e54]
+              - cell "NT$ 2,840.00" [ref=f3e55]
+            - row [ref=f3e56]:
+              - cell "會員折扣（10%）" [ref=f3e57]
+              - cell "-NT$ 284.00" [ref=f3e58]
+            - row [ref=f3e59]:
+              - cell [ref=f3e60]:
+                - strong [ref=f3e61]: 應付總額
+              - cell [ref=f3e62]:
+                - strong [ref=f3e63]: NT$ 2,556.00
+      - button "取消訂單" [ref=f3e65] [cursor=pointer]
+  - contentinfo [ref=f3e66]:
+    - generic [ref=f3e67]: © 2026 - OrderHub 訂單管理系統（內部訓練用）
