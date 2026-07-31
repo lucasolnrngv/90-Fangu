@@ -20,3 +20,4 @@
 2026-07-24 15:39:50  Edit  C:\Users\dm90\.claude\projects\C--Users-dm90-source-repos-lucasolnrngv-90-Fangu\memory\MEMORY.md
 2026-07-31 13:04:33  Write  C:\Users\dm90\source\repos\lucasolnrngv\90-Fangu\training-repo\src\OrderHub.Mcp\OrderHubTools.cs
 2026-07-31 13:07:28  Edit  C:\Users\dm90\source\repos\lucasolnrngv\90-Fangu\training-repo\src\OrderHub.Mcp\Program.cs
+2026-07-31 13:44:38  Write  C:\Users\dm90\source\repos\lucasolnrngv\90-Fangu\training-repo\.mcp.json
